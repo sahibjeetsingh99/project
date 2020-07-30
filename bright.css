@@ -1,0 +1,300 @@
+*{
+	margin:0;
+	padding:0;
+}
+header{
+	padding: 10px;
+	color: white;
+
+}
+@media screen and (max-width: 992px){
+	header{
+		
+		display: none!important;
+	}
+	.navbar-nav{
+		display: none;
+	}
+	/*button .navbar-toggler{
+		display: block!important;
+	}*/
+}
+
+.cols{
+	margin: 0px 0px 33px 0px;
+}
+
+.loc{
+	text-align: center;
+	padding: 10px;
+	color: white;
+
+}
+.con{
+	text-align: center;
+	padding: 10px;
+	color: white;
+}
+.logo{
+	display: block;
+	margin: auto;
+	width: 150px;
+}
+.a{
+	padding-right: 20px;
+}
+.search{
+	line-height: 2;
+}
+.carousel-inner img{
+	width: 100%;
+	height: 100%;
+	
+}
+	
+.carousel-caption.caption {
+    bottom: 33% !important;
+}
+
+@media screen and (max-width: 656px){
+.container {
+    max-width: 448px !important;
+}
+}
+
+.collapse 
+{
+	line-height: 60px;
+}
+.info{
+ 
+  font-size: 60px;
+}
+
+@media screen and (max-width: 1018px) {
+  .info {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 656px){
+	.power{
+		font-size: 20px !important;
+	}
+}
+@media screen and (min-width:576px){
+	.stu-1{
+		border-right: 5px solid black;
+	}
+}
+@media screen and (max-width: 575px){
+	.stu-2{
+		margin-top: 15px;
+	}
+
+}
+.img{
+	background-image: url(bg.jpg);
+	background-size: cover;
+	height: 100%;
+}
+.cols{
+	border: 1px solid tomato;
+	text-align: center;
+	padding: 10px;
+	position: relative;
+
+}
+.cols:hover{
+	background-color: white;
+	transition: 0.2s;
+	box-shadow: 10px 10px #e6858e;
+
+}
+.icon{
+	    margin: -59px 0 20px;
+
+}
+.ic{
+	color: #fff;
+    font-size: 20px;
+    width: 48px;
+    height: 48px;
+    line-height: 48px;
+    border-radius: 50%;
+    text-align: center; 
+    line-height: 48px!important;
+    background-color: blue;
+}
+.welcome{
+	margin-top:6%;
+}
+.wel{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 40px;
+
+}
+.pro-labs{
+	 margin-top: 40px;
+    margin-left: 60px!important;
+}
+.prof{
+   padding-left: 26px!important;
+}
+.users{
+	color: #fff;
+    font-size: 20px;
+    width: 48px;
+    height: 48px;
+    line-height: 48px;
+    border-radius: 50%;
+    text-align: center; 
+    line-height: 48px!important;
+    background-color: tomato;
+    
+}
+.courses{
+	background-color: lightgrey;
+}
+.comp:hover{
+	
+}
+
+.para{
+	background-image: url(parallax.jpg);
+	background-size: cover;
+	height: 100%;
+}
+form{
+	background-color: white;
+	padding: 20px;
+	margin-bottom: 25px;
+}
+.para input{
+	width: 100%;
+	padding: 20px;
+
+}
+
+.counter{
+background-image: url(counter-bg.jpg);
+background-size: cover;
+width: 100%;
+padding: 100px 0px 64px 0px;
+}
+.con{
+	font-size: 40px;
+}
+.number{
+	font-size: 52px;
+	font-weight: 700;
+	border-bottom: 1px solid tomato;
+
+}
+.member-social-icon li{
+	display: inline-block;
+	padding: 10px;
+
+}
+.member-social-icon a{
+	
+	padding: 10px;
+	color: black;
+	 box-shadow: 0 2px 4px rgba(0,0,0,.2);
+    margin-right: 4px;
+}
+.member-social-icon a:hover{
+	transition: all 0.2s;
+}
+.member-social-icon a:hover .fa-youtube
+	{
+		color: red;
+		
+	}
+.faculty .card:hover{
+	box-shadow: 0 2px 4px rgba(0,0,0,.2);
+}
+.testimonial{
+	background-image: url(testimonial-bg.jpg);
+	background-size: cover;
+	width: 100%;
+}
+.testimonial .stu-1{
+	background-color: white;
+	text-align: center;
+}
+.testimonial .stu-2{
+	background-color: white;
+	text-align: center;
+}
+.testimonial p{
+
+	padding: 50px;
+}
+.testimonial img{
+	border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    float: left;
+    /* margin-left: 30px; */
+    /* margin-right: 20px; */
+    margin-top: -32px;
+    position: relative;
+    padding: 0;
+}
+.testimonial{
+	padding-bottom: 50px;
+}
+.sub input{
+	width: 100%;
+	padding: 8px;
+}
+.footer{
+	padding-top: 75px;
+    padding-bottom: 35px;
+    background: #22272b;
+    color: #aaa;
+}
+.footer h2{
+	color: white;
+}
+.footer .news-image{
+	width: 100px;
+	height: 95px;
+}
+.news-content{
+	position: absolute;
+    top: 39px;
+    left: 156px;
+}
+.news{
+	position: relative;
+}
+.news-content-2{
+	position: absolute;
+    top: 185px;
+    left: 156px;
+}
+.footer i{
+	color: tomato;
+}
+.gallery{
+	width: 80px;
+	height: 72px;
+}
+.site-info{
+	padding-top: 15px;
+    padding-bottom: 15px;
+    background: #1d2023;
+    color: #999;
+        border-top: 1px solid #353535;
+}
+.site-info a{
+	    padding: 10px;
+        color: black;
+      background-color: #949494;
+}
+.site-info li{
+	padding: 1px;
+	display: inline-block;
+}
